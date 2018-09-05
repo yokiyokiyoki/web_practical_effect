@@ -1,22 +1,3 @@
-# web_practical_effect
+# web 实用效果页面
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-# web_practical_effect
+> 采用 vue cli3 编写
