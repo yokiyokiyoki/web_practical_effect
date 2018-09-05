@@ -2,7 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/fullPage">整屏滚动</router-link>
     </div>
     <router-view/>
   </div>
@@ -17,7 +18,12 @@
   color: #2c3e50;
 }
 #nav {
-  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  z-index: 2;
 }
 
 #nav a {
