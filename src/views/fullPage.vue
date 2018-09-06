@@ -16,8 +16,9 @@ export default {
         return {
         options: {
             menu: '#menu',
+            licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
             anchors: ['page1', 'page2', 'page3'],
-            sectionsColor: ['#41b883', '#ff5f45', '#0798ec']
+            sectionsColor: ['#41b883', '#ff5f45', '#0798ec'],
         },
         }
     }
