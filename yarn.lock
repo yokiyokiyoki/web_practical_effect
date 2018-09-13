@@ -3178,6 +3178,10 @@ fsevents@^1.2.2:
     nan "^2.9.2"
     node-pre-gyp "^0.10.0"
 
+fullpage.js@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/fullpage.js/-/fullpage.js-3.0.2.tgz#4a38e8ac5be5ebf2d9631dc462468255adaa110e"
+
 function-bind@^1.0.2, function-bind@^1.1.0, function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -6870,6 +6874,12 @@ vue-eslint-parser@^2.0.3:
     espree "^3.5.2"
     esquery "^1.0.0"
     lodash "^4.17.4"
+
+vue-fullpage.js@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/vue-fullpage.js/-/vue-fullpage.js-0.0.5.tgz#376cff02fbf702e5c2619fcc7016430fb34315e4"
+  dependencies:
+    fullpage.js "^3.0.2"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.0"
